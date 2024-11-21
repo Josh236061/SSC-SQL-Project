@@ -4,31 +4,31 @@ USE employees;
 INSERT INTO department
     (name)
 VALUES
-    ("Engineering"), 
-    ("Sales"),
-    ("HR"),
+    ("Administration"), 
+    ("Operations"),
+    ("Shop"),
     ("IT");
 
 INSERT INTO role
     (title, salary, department_id)
 VALUES
-    ("Software Engineer", 120000, 1),
-    ("Mechanical Engineer", 120000, 1),
-    ("Junior Engineer", 85000, 1),
-    ("Sales Person", 100000, 2),
-    ("Sales Engineer", 110000, 2),
-    ("HR Manager", 130000, 3),
-    ("HR Representative", 80000, 2),
-    ("IT Tech", 70000, 4);
+    ("President/Vice-President", 000, 1),
+    ("Equipment Manager", 000, 1),
+    ("Accounting/Finance Manager", 000, 1),
+    ("Operations Manager", 000, 2),
+    ("Operations Assistant", 000, 2),
+    ("Service Manager", 000, 3),
+    ("Service Assistant", 000, 3),
+    ("IT Manager", 000, 4);
 
 INSERT INTO employee
     (first_name, last_name, role_id, manager_id)
 VALUES
-    ("Phoebe", "Buffay", 1, 1),
-    ("Joey", "Tribbiani", 1, NULL),
-    ("Monica", "Geller", 1, NULL),
-    ("Chandler", "Bing", 2, 2),
-    ("Rachel", "Green", 2, NULL),
-    ("Ross", "Geller", 3, NULL),
-    ("Gunther", "Central Perk", 3, 4),
-    ("Janice", "Hosenstein", 4, NULL);
+    ("Nerv", "Thomas", 1, 1),
+    ("Melinna", "Thomas", 1, NULL),
+    ("Arthur", "Thomas", 1, NULL),
+    ("Josh", "Thomas", 2, 2),
+    ("Albert", "Thomas", 2, NULL),
+    ("Deveren", "Thomas", 3, NULL),
+    ("Annicke", "Joseph", 3, 4),
+    ("Milton", "Modeste", 4, NULL);
