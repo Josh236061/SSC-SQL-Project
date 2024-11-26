@@ -26,9 +26,22 @@ INSERT INTO employee
 VALUES
     ("Nerv", "Thomas", 1, 1),
     ("Melinna", "Thomas", 1, NULL),
-    ("Arthur", "Thomas", 1, NULL),
-    ("Josh", "Thomas", 2, 2),
+    ("Arthur", "Thomas", 4, NULL),
+    ("Josh", "Thomas", 8, NULL),
     ("Albert", "Thomas", 2, NULL),
-    ("Deveren", "Thomas", 3, NULL),
-    ("Annicke", "Joseph", 3, 4),
-    ("Milton", "Modeste", 4, NULL);
+    ("Deveren", "Thomas", 2, NULL),
+    ("Annicke", "Joseph", 3, NULL),
+    ("Milton", "Modeste", 6, NULL),
+    ("Jose", "Calzada", 7, NULL);
+
+    INSERT INTO equipment
+    (unit_number, equipment_type, make, model)
+VALUES
+    ("", "", 1, 1),
+    ("", "", 1, NULL),
+    ("", "", 1, NULL),
+    ("", "", 2, 2),
+    ("", "", 2, NULL),
+    ("", "", 3, NULL),
+    ("", "", 3, 4),
+    ("", "", 4, NULL);

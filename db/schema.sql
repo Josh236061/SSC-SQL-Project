@@ -23,3 +23,11 @@ CREATE TABLE employee (
   role_id INT UNSIGNED NOT NULL,
   manager_id INT
 );
+
+CREATE TABLE equipment (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  first_name VARCHAR(30) NOT NULL,
+  last_name VARCHAR(30) NOT NULL,
+  role_id INT UNSIGNED NOT NULL,
+  manager_id INT
+);
